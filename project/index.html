@@ -3,50 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
 <body>
-
-  Get Started
-
-  Maximize skill, minimize budget
-
-  Our modern courses across a range of in-demand skills will give you the 
-  knowledge you need to live the life you want.
-
-  Get Started
-
-  Check out our most popular courses!
-
-  Animation
-  Learn the latest animation techniques to create stunning motion 
-  design and captivate your audience.
-  Get Started
-
-  Design
-  Create beautiful, usable interfaces to help shape the future of 
-  how the web looks.
-  Get Started
-
-  Photography
-  Explore critical fundamentals like lighting, composition, and focus 
-  to capture exceptional photos.
-  Get Started
-
-  Crypto
-  All you need to know to get started investing in crypto. Go from beginner 
-  to advanced with this 54 hour course.
-  Get Started
-
-  Business
-  A step-by-step playbook to help you start, scale, and sustain your business 
-  without outside investment.
-  Get Started
-
-  Get Started
-
+  <nav class="flex">
+    <img src="./assets/logo-dark.svg" alt="skilled logo">
+    <button>Get Started</button>
+  </nav>
+  <main>
+    <h1>Maximize skill, minimize budget</h1>
+    <p>
+      Our modern courses across a range of <br>in-demand skills will give you the 
+      knowledge you need to live the life you want.
+    </p>
+    <button class="gradient">Get Started</button>
+    <img src="./assets/image-hero-mobile.webp" alt="woman">
+    <div class="popular-courses gradient">
+      Check out our most popular courses!
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <img src="./assets/icon-animation.svg" alt="animation logo">
+        <h4>Animation</h4>
+        <p class="para-s">
+          Learn the latest animation techniques to create stunning motion 
+          design and captivate your audience.
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+      <div class="card">
+        <img src="./assets/icon-design.svg" alt="design logo">
+        <h4>Design</h4>
+        <p class="para-s">
+          Create beautiful, usable interfaces to help shape the future of 
+          how the web looks.
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+      <div class="card">
+        <img src="./assets/icon-photography.svg" alt="photography logo">
+        <h4>Photography</h4>
+        <p class="para-s">
+          Explore critical fundamentals like lighting, composition, and focus 
+          to capture exceptional photos.
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+      <div class="card">
+        <img src="./assets/icon-crypto.svg" alt="crypto logo">
+        <h4>Crypto</h4>
+        <p class="para-s">
+          All you need to know to get started investing in crypto. Go from beginner 
+          to advanced with this 54 hour course.
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+      <div class="card">
+        <img src="./assets/icon-business.svg" alt="Business logo">
+        <h4>Business</h4>
+        <p class="para-s">
+          A step-by-step playbook to help you start, scale, and sustain your business 
+          without outside investment.
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <img src="./assets/logo-light.svg" alt="skilled logo">
+    <button class="blue-pink">Get Started</button>
+  </footer>
 </body>
 </html>
