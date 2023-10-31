@@ -159,11 +159,24 @@ main p {
 
 /* Tablet Layout */
 @media (width >= 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
     .flex {
         padding: 40px;
     }
     .main {
         flex-direction: row;
+        justify-content: center;
+    }
+
+    .main p {
+        font-size: 13px
+    }
+
+    .break {
+        display: block;
     }
 
     .woman-container {
@@ -174,8 +187,9 @@ main p {
         position: absolute;
         background-image: url(./assets/image-hero-tablet@2x.png);
         background-size: contain;
-        right: -100px;
-        transform: scale(2.4);
+        top: -80px;
+        left: 70%;
+        transform: scale(2.2);
         z-index: -1;
     }
 
